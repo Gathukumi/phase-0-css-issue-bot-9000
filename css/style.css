@@ -1,23 +1,28 @@
+/* Set the background of the body element to pink */
 body {
-  background pink;
+  background: pink;
 }
 
+/* Style h1 elements with blue color and a font size of 3em */
 h1 {
   color: blue;
-  fontsize: 3em; 
+  font-size: 3em; /* Corrected the typo "fontsize" to "font-size" */
 }
 
+/* Style h2 elements with green color, normal font weight, and italic font style */
 h2 {
   color: green;
-  font-weight: normal
-  font-style: italic;
+  font-weight: normal; /* Added a semicolon after font-weight */
+  font-style: italic; /* Added a semicolon after font-style */
 }
 
+/* Style elements with class "completed" with a font size of 12px */
 .completed {
-  font-family: 12px;
+  font-size: 12px; /* Corrected "font-family" to "font-size" and specified the size */
 }
 
+/* Style elements with class "completed" inside the "tasks" ID with a background color of #ccc and underline text decoration */
 #tasks .completed {
-  backgound: #ccc;
+  background: #ccc; /* Corrected "backgound" to "background" */
   text-decoration: underline;
 }
